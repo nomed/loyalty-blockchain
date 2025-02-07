@@ -13,7 +13,7 @@ fi
 
 echo "cloning Loyalty Blockchain contracts"
 
-git clone git@github.com:OpenLoyalty/loyalty-blockchain-contracts.git
+git clone https://github.com/nomed/loyalty-blockchain-contracts.git
 # git clone https://github.com/OpenLoyalty/loyalty-blockchain-contracts.git fablo/loyalty-blockchain-contracts
 
 echo "starting Hyperledger Fabric Network using Fablo"
