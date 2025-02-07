@@ -53,7 +53,7 @@ docker exec -i db psql -U opuser -d openpay < scripts/sql/create-voucher-txview.
 
 sleep 5
 
-docker-compose down
+docker compose down
 
 echo "Initialization complete!"
 echo "Execute yarn docker:dev to start your journey"
